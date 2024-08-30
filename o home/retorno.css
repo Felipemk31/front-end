@@ -1,0 +1,30 @@
+body{
+    background-color: blanchedalmond;
+}
+
+
+#admita{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 3cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#admitab{
+    border-radius: 13px;
+    border: 5px solid green;
+    height: 300px;
+    width: 300px;
+}
+
+div{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+ol{
+    font-size: 200%;
+    align-self: center;
+}

@@ -1,0 +1,26 @@
+body{
+    background-color: lightblue;
+}
+
+h1 {
+    color: red;
+    font-size: 24px;
+}
+   
+P {
+    color: green;
+}
+
+img{
+    width: 100px;
+}
+    
+ul {
+    margin-left: 20px;
+    color: blue;
+    }
+
+a{
+    color: blue;
+}
+

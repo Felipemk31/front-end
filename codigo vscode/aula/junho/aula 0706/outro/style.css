@@ -1,0 +1,40 @@
+*{
+    margin-top: 1;
+    margin-left: 2;
+    margin-right: 3;
+}
+
+body{
+    text-align: center;
+    background-color: black;
+}
+
+p{
+    font-family: cursive;
+    color: aquamarine;
+}
+
+#div{
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+
+#div2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lime;
+}
+
+.class{
+    font-family: 'Times New Roman', Times, serif;
+    color: burlywood
+}
+
+a[href="kaylezinha.jpg"]{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkolivegreen;
+}
+
+#relação{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
