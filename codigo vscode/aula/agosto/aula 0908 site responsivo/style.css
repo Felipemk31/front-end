@@ -7,11 +7,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;/*define a altura que o texto podera ocupar*/
+    background: #c4560dcc;
 }
 
 /*estilos do cabeçalho do site*/
 header{
-    background: #4d7699;
+    background: #8a3904cc;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -49,19 +50,19 @@ main{
 }
 
 .secao1{
-    background-color: aquamarine;
+    background-color: #8a500457;
     padding: 1rem;
     text-align: center;
 }
 
 .secao2{
-    background: #515562;
+    background: #8a500457;
     padding: 1rem;
     text-align: center;
 }
 
 footer{
-    background: #333;
+    background: #8a3904cc;
     color: #fff;
     text-align: center;
     padding: 1rem;
