@@ -1,0 +1,59 @@
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./nav.css);
+
+*{/*reset basico*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --cor-background:#c4560dcc;
+    --cor-secao:#8a500457;
+    --padding:1rem;
+    --font-padrao: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: var(--font-padrao);
+    line-height: 1.6;/*define a altura que o texto podera ocupar*/
+    background: var(--cor-background);
+}
+
+#urgente{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.div1{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+main{
+    padding: var(--padding);
+}
+
+@media (max-width: 768px){
+    nav ul li{
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+
+    article{
+        flex: 1 1 100%;
+    }
+}
