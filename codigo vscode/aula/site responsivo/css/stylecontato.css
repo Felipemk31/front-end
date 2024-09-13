@@ -1,6 +1,5 @@
 @import url(./footer.css);
 @import url(./header.css);
-@import url(./nav.css);
 
 *{/*reset basico*/
     margin: 0;
@@ -21,26 +20,28 @@ html,body{
     width: 100%;
 }
 
-body{
-    font-family: var(--font-padrao);
-    line-height: 1.6;/*define a altura que o texto podera ocupar*/
-    background: var(--cor-background);
-}
-
-#urgente{
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-}
-
-.div1{
-    display: flex;
-    align-items: left;
-    justify-content: left;
-}
-
 main{
-    padding: var(--padding);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-background);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+}
+
+.container{
+    background-color: var(--cor-secao);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #000000;
+}
+
+h1{
+    margin-top: 0px;
 }
 
 @media (max-width: 768px){
