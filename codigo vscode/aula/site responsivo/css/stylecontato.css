@@ -27,7 +27,7 @@ main{
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: top;
+    align-items: center;
     height: 100vh;
 }
 
