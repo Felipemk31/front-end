@@ -24,6 +24,7 @@ html,body{
 
 body{
     font-family: var(--font-padrao);
+    font-size: 20px;
     line-height: 1.6;/*define a altura que o texto podera ocupar*/
     background: var(--cor-background);
 }
